@@ -1,0 +1,32 @@
+body{
+    background:  linear-gradient(
+        90deg,
+        rgb(178, 9, 220) 12%,
+        rgba(6, 132, 216, 1) 100%
+    );
+}
+
+.bar_width{
+    width: 35%;
+    height: 40px;
+}
+
+.rad{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main{
+    color: white;
+}
+
+.js{
+    color: RGB(255, 229, 153);
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
