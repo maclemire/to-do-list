@@ -1,37 +1,37 @@
-body{
-    background:  linear-gradient(
-        90deg,
-        rgb(178, 9, 220) 12%,
-        rgba(6, 132, 216, 1) 100%
-    );
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(178, 9, 220) 12%,
+    rgba(6, 132, 216, 1) 100%
+  );
 }
 
-.bar_width{
-    width: 35%;
-    height: 60px;
-    color: black;
-    background-color: white;
-    margin: 0 auto
+.bar_width {
+  width: 35%;
+  height: 60px;
+  color: black;
+  background-color: white;
+  margin: 0 auto;
 }
 
-.rad{
-    border: 1px solid white;
-    border-radius: 4px;
+.rad {
+  border: 1px solid white;
+  border-radius: 4px;
 }
 
-.main{
-    color: white;
+.main {
+  color: white;
 }
 
-.js{
-    color: RGB(255, 229, 153);
+.js {
+  color: RGB(255, 229, 153);
 }
 
-.button{
-    background-color: blue;
-    color: white;
-    border: 1px solid blue;
-    border-radius: 4px;
+.button {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  border-radius: 4px;
 }
 
 #tasks {
@@ -42,4 +42,9 @@ body{
   border-radius: 10px;
   cursor: pointer;
   color: black;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: rgb(0, 187, 91);
 }
